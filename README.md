@@ -21,13 +21,10 @@ The main evaluation metric is **F1-score** to account for the imbalanced dataset
 2. **Handling Class Imbalance**  
    - Use **SMOTE (Synthetic Minority Oversampling Technique)** to balance the minority class in training data  
 3. **Modeling & Hyperparameter Tuning**  
-   - Models: Logistic Regression, Random Forest, Gradient Boosting  
+   - Models: Logistic Regression, Random Forest, Gradient Boosting,..etc  
    - Hyperparameters tuned using **RandomizedSearchCV**  
    - Evaluation metric: **F1-score**  
-4. **Evaluation**  
-   - Confusion matrix  
-   - Classification report  
-   - ROC AUC  
+
 
 ## 🛠️ Technologies
 - Python  
